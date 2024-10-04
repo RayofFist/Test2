@@ -1,38 +1,33 @@
-[
-	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+{
+    "name": "Kingdom of Valoria",
+    "leadername": "Queen Alara", 
+    "adjective": "Valorian",
+    "startBias": ["Avoid [Tundra]"],
+    "preferredVictoryType": "Scientific",
+    "personality": "Queen Alara",
+   
+    "startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independence, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
+    "startIntroPart2": "Great Nebuchadnezzar, Babylon's glory still lives through you and your people. Will you create a spark to enlighten the world again? Will your new empire shine through the ages of history?",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+    "declaringWar": "The demon wants the blood of soldiers!",
+    "attacked": "Oh well, I presume you know what you're doing.",
+    "defeated": "It is over. Perhaps now I shall have peace, at last.",
+    "introduction": "Are you real or a phantom?",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
-]
+    "neutralHello": "Greetings.",
+    "hateHello": "What do YOU want?!",
+
+    "tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+    "outerColor": [255, 215, 0],
+    "innerColor": [169, 169, 169],
+    "favoredReligion": "Islam",
+    "uniqueName": "Ingenuity",
+    "uniques": [
+        "[+20% City Defense] for all cities", 
+        "[+10% Production in cities with walls]", 
+        "[Settlers are 50% more expensive to produce]"
+    ],
+    "cities": [ "Valoria", "Griffonspire", "Windhold", "Skykeep", "Ironridge"],
+    "spyNames": ["Joe"]
+}
